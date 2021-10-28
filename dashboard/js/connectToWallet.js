@@ -229,7 +229,7 @@ async function getData(address) {
 	for(let i = 0; i<18; i++){
 		addressDividends = addressDividends/10
 	}
-	res1.innerHTML = "<span class=\"value\">"+((Math.abs(addressDividends*10000000000)/10000000000).toFixed(10)) + " BURGER </span> in claimable rewards for this address";
+	res1.innerHTML = "<span class=\"value\">"+((Math.abs(addressDividends*10000000000)/10000000000).toFixed(10)) + " BURGER (Value in BNB)</span> in claimable rewards for this address";
 
 	//let res2 = document.getElementById("res2")
 //	for(let i = 0; i<18; i++){
@@ -241,7 +241,7 @@ async function getData(address) {
 	for(let i = 0; i<18; i++){
 		totalDividends = totalDividends/10
 	}
-	res3.innerHTML = "<span class=\"value\">"+(Math.round(totalDividends*100000000)/100000000) + " BURGER </span> in rewards paid to all holders";
+	res3.innerHTML = "<span class=\"value\">"+(Math.round(totalDividends*100000000)/100000000) + " BURGER (Value in BNB)</span> in rewards paid to all holders";
 
 	let test = document.getElementsByClassName("value");
 
