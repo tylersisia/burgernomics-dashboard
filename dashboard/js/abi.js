@@ -33,6 +33,13 @@ let abi = [
   },
   {
     "inputs": [],
+    "name": "Rewards",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
     "stateMutability": "nonpayable",
     "type": "constructor"
   },
