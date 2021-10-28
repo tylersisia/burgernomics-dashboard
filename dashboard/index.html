@@ -1,0 +1,75 @@
+<html lang="en" dir="ltr">
+
+<head>
+    <title>Burgernomics rewards dashboard</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="./fontawesome/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.cdnfonts.com/css/komika-text" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+	<link rel="shortcut icon" type="images/png" href="p.png"/>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+ <link rel="icon" href="p.png" />
+
+</head>
+
+<body>
+
+    <div>
+      <p align="right" id="connectButton" ><a class="connectButton">Connect Wallet</a></p>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="columnleft"><img alt="Gambar Koala" src="p.png" height="250" width="250" /></div>
+        <div class="columnright"><img alt="Gambar Koala" src="p.gif" height="250" width="250" /></div>
+      </div>
+
+
+      <p id="countdown"></p>
+        <div class="row">
+          <div class="container__item">
+            <div class="row">
+              <div class="columnleft2"><span class="icon-donate"></span></div>
+              <div class="columnright2">Enter your wallet address<br>
+                <p class="bnb" id="jackpot"></p>
+              </div>
+            </div>
+            <div class="center">
+          		<form class="form">
+
+                <input class="form__field" type="text" id="lotteryAmount" placeholder="0x000000000000000000000000000000000000000" autocomplete="off" onkeypress='validate(event)'>
+              </form>
+            </div>
+
+            <p class="info"><a>You must connect wallet before claiming rewards.</a></p>
+            <p id="claim" class="center"><a class="claimButton">Claim Rewards</a></p>
+            <div><p class="bnb" style="display: inline;" id="amountOfBNB"></p></div>
+            <div class="mobilecolumn">
+				<p class="center" id="res1">0 BURGER in claimable rewards for this address</p>
+
+        <p class="center" id="res3">0 BURGER in rewards paid to all holders</p>
+			</div>
+
+        </div>
+
+    </div>
+
+
+
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+<script src="./dist/web3.min.js"></script>
+<script src="./dist/index.js"></script>
+<script src="https://unpkg.com/ipfs-api@9.0.0/dist/index.js"></script>
+<script src="./dist/umd/1.2.1/index.min.js"></script>
+<script src="./js/connectToWallet.js"></script>
+<script src="./js/abi.js"></script>
+
+</html>

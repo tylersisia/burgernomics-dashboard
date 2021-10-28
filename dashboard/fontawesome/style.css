@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'ak';
+  src:  url('fonts/ak.eot?ey9vt');
+  src:  url('fonts/ak.eot?ey9vt#iefix') format('embedded-opentype'),
+    url('fonts/ak.ttf?ey9vt') format('truetype'),
+    url('fonts/ak.woff?ey9vt') format('woff'),
+    url('fonts/ak.svg?ey9vt#ak') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'ak' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-analytics:before {
+  content: "\e900";
+}
+.icon-birthday-cake:before {
+  content: "\e901";
+}
+.icon-calendar:before {
+  content: "\e902";
+}
+.icon-circle-minus:before {
+  content: "\e903";
+}
+.icon-circle-plus:before {
+  content: "\e904";
+}
+.icon-coin:before {
+  content: "\e905";
+}
+.icon-crow:before {
+  content: "\e906";
+}
+.icon-discord:before {
+  content: "\e907";
+}
+.icon-donate:before {
+  content: "\e908";
+}
+.icon-facebook-square:before {
+  content: "\e909";
+}
+.icon-feather:before {
+  content: "\e90a";
+}
+.icon-feather-alt:before {
+  content: "\e90b";
+}
+.icon-flame:before {
+  content: "\e90c";
+}
+.icon-hand-heart:before {
+  content: "\e90d";
+}
+.icon-instagram-square:before {
+  content: "\e90e";
+}
+.icon-long-arrow-left:before {
+  content: "\e90f";
+}
+.icon-long-arrow-right:before {
+  content: "\e910";
+}
+.icon-map-marker-alt:before {
+  content: "\e911";
+}
+.icon-medium:before {
+  content: "\e912";
+}
+.icon-reddit-square:before {
+  content: "\e913";
+}
+.icon-telegram:before {
+  content: "\e914";
+}
+.icon-twitter-square:before {
+  content: "\e915";
+}
+.icon-users-class:before {
+  content: "\e916";
+}
