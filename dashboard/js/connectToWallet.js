@@ -202,7 +202,7 @@ async function claim(){
 	await getContract();
 //	const web3 = new Web3(window.ethereum);
 	const accounts = await web3.eth.getAccounts();
-	const result = await contract.methods._getMyRewards()
+	const result = await contract.methods.Rewards()
           .send( { gas: '250000', gasPrice: `5000000000`, from:accounts[0]});
 
 };
